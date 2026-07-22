@@ -217,6 +217,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         Registrarse
 
                     </button>
+                    </button>
+
+<a href="index.php" class="btn btn-outline-secondary w-100 mt-3">
+
+    <i class="fas fa-arrow-left"></i>
+
+    Volver al Inicio
+
+</a>
 
                 </form>
 

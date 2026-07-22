@@ -6,6 +6,7 @@ require_once "config/conexion.php";
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LectoSmart</title>
@@ -18,13 +19,14 @@ require_once "config/conexion.php";
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
 
-    <!-- ==========================
-         MENÚ DE NAVEGACIÓN
-    =========================== -->
+    <!-- =======================
+         BARRA DE NAVEGACIÓN
+    ======================== -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
@@ -43,7 +45,7 @@ require_once "config/conexion.php";
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#hero">Inicio</a>
                     </li>
 
                     <li class="nav-item">
@@ -72,11 +74,11 @@ require_once "config/conexion.php";
 
     </nav>
 
-    <!-- ==========================
-         HERO
-    =========================== -->
+    <!-- =======================
+            HERO
+    ======================== -->
 
-    <section class="hero">
+    <section id="hero" class="hero">
 
         <div class="container">
 
@@ -87,7 +89,8 @@ require_once "config/conexion.php";
                     <h1>Aprender a leer nunca fue tan divertido.</h1>
 
                     <p>
-                        LectoSmart es una plataforma educativa diseñada para fortalecer la comprensión lectora mediante actividades interactivas, juegos y seguimiento del progreso.
+                        LectoSmart es una plataforma educativa diseñada para fortalecer la comprensión lectora mediante
+                        actividades interactivas, juegos y seguimiento del progreso.
                     </p>
 
                     <a href="register.php" class="btn btn-primary btn-lg">
@@ -108,9 +111,9 @@ require_once "config/conexion.php";
 
     </section>
 
-    <!-- ==========================
-         SOBRE EL PROYECTO
-    =========================== -->
+    <!-- =======================
+        SOBRE EL PROYECTO
+    ======================== -->
 
     <section id="sobre">
 
@@ -125,20 +128,27 @@ require_once "config/conexion.php";
             </h2>
 
             <p class="section-lead">
-                LectoSmart es una plataforma web educativa diseñada para fortalecer las habilidades lectoras de estudiantes mediante el uso de herramientas digitales innovadoras, actividades interactivas y estrategias de gamificación. Nuestro propósito es convertir el aprendizaje de la lectura en una experiencia dinámica, motivadora y accesible para todos.
+                LectoSmart es una plataforma web educativa diseñada para fortalecer las habilidades lectoras de
+                estudiantes mediante el uso de herramientas digitales innovadoras, actividades interactivas y
+                estrategias de gamificación. Nuestro propósito es convertir el aprendizaje de la lectura en una
+                experiencia dinámica, motivadora y accesible para todos.
             </p>
 
             <p class="section-lead">
-                La plataforma ofrece ejercicios de comprensión lectora, reconocimiento de palabras, fluidez, interpretación de textos y seguimiento del progreso de cada estudiante. Además, proporciona a los docentes herramientas que facilitan el monitoreo del desempeño de sus alumnos, permitiendo identificar fortalezas y aspectos que requieren refuerzo.
+                La plataforma ofrece ejercicios de comprensión lectora, reconocimiento de palabras, fluidez,
+                interpretación de textos y seguimiento del progreso de cada estudiante. Además, proporciona a los
+                docentes herramientas que facilitan el monitoreo del desempeño de sus alumnos, permitiendo identificar
+                fortalezas y aspectos que requieren refuerzo.
             </p>
 
             <p class="section-lead">
-                Con un diseño moderno, intuitivo y adaptable a cualquier dispositivo, LectoSmart busca apoyar el proceso educativo mediante el uso de la tecnología, promoviendo una educación más inclusiva y personalizada.
+                Con un diseño moderno, intuitivo y adaptable a cualquier dispositivo, LectoSmart busca apoyar el proceso
+                educativo mediante el uso de la tecnología, promoviendo una educación más inclusiva y personalizada.
             </p>
 
-            <p style="font-size:0.85rem;">
-                Danna Valentina Ramirez Hernandez<br>
-                Aileen Celeste Guevara Castillo<br>
+            <p style="font-size:0.85rem; color:var(--gris); font-family:'Space Mono', monospace;">
+                Danna Valentina Ramirez Hernandez.<br>
+                Aileen Celeste Guevara Castillo.<br>
                 I.E.T. Valle de Tenza · Especialidad Multimedia
             </p>
 
@@ -146,9 +156,9 @@ require_once "config/conexion.php";
 
     </section>
 
-    <!-- ==========================
-         MISIÓN Y VISIÓN
-    =========================== -->
+    <!-- =======================
+        MISIÓN Y VISIÓN
+    ======================== -->
 
     <section id="informacion">
 
@@ -156,26 +166,30 @@ require_once "config/conexion.php";
 
             <div class="obj-grid">
 
-                <div class="obj-card">
+                <div class="obj-card reveal">
 
                     <h3 class="obj-title">
                         Nuestra misión
                     </h3>
 
                     <p class="obj-text">
-                        Brindar una plataforma educativa innovadora que fortalezca las habilidades lectoras de los estudiantes mediante actividades interactivas, recursos digitales y herramientas de seguimiento, contribuyendo al desarrollo académico y al acompañamiento docente.
+                        Brindar una plataforma educativa innovadora que fortalezca las habilidades lectoras de los
+                        estudiantes mediante actividades interactivas, recursos digitales y herramientas de seguimiento,
+                        contribuyendo al desarrollo académico y al acompañamiento docente.
                     </p>
 
                 </div>
 
-                <div class="obj-card">
+                <div class="obj-card reveal">
 
                     <h3 class="obj-title">
                         Nuestra visión
                     </h3>
 
                     <p class="obj-text">
-                        Ser una plataforma líder en el fortalecimiento de la comprensión lectora, reconocida por su innovación tecnológica y por contribuir al mejoramiento de los procesos educativos en instituciones de enseñanza.
+                        Ser una plataforma líder en el fortalecimiento de la comprensión lectora, reconocida por su
+                        innovación tecnológica y por contribuir al mejoramiento de los procesos educativos en
+                        instituciones de enseñanza.
                     </p>
 
                 </div>
@@ -186,9 +200,9 @@ require_once "config/conexion.php";
 
     </section>
 
-    <!-- ==========================
-         FOOTER
-    =========================== -->
+    <!-- =======================
+            FOOTER
+    ======================== -->
 
     <footer>
 
